@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+* {
+    font-family: Playfair Display;
+    color: white;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: #5B4959;
+}
+
+header {
+    background-image: url(img/bg1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#Timer {
+    border: 0.4vh white solid;
+    border-radius: 1vw;
+    margin: 0 30vw;
+    font-size: 4vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    margin-bottom: 13vh;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    background: rgba(165, 165, 176, 0.37);
+    height: 5.4vh;
+    font-size: 2.5vh;
+}
+
+#ico a {
+    margin-right: 10%;
+    color: #E88B21;
+    text-decoration: none;
+}
+
+#ico {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+#ico a:last-child {
+    margin: 0px;
+}
+
+#help button {
+    height: 5.4vh;
+    width: 20vw;
+    background-color: #E88B21;
+    color: white;
+    margin-left: 50vw;
+    font-size: 2.3vh;
+    text-align: center;
+    padding: 0;
+    border: 0;
+    letter-spacing: 0.3vw;
+}
+
+.Folder1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+}
+
+.Folder1 h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #C4040F;
+    font-weight: 700;
+    font-size: 4.5vw;
+    letter-spacing: 0.5vw;
+}
+
+.fh1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.Folder1 p {
+    margin: 0;
+    text-transform: uppercase;
+    color: #E88B21;
+    font-size: 1.3vw;
+    font-family: Montserrat;
+    margin-top: 0px;
+}
+
+#days {
+    display: flex;
+    flex-direction: row;
+    margin-left: 17vw;
+    margin-top: 10.5vh;
+}
+
+#days button {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: #C4040F 0.4vh solid;
+    border-radius: 1ch;
+    font-size: 2.6vw;
+    font-weight: 400;
+    font-family: Montserrat;
+    text-align: center;
+    text-decoration: none;
+    height: 7vh;
+    width: 12vw;
+    margin-right: 10%;
+    color: #E88B21;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+#days form {
+    margin: 0;
+    padding: 0;
+    height: 7vh;
+    width: 14vw;
+    margin-right: 10%;
+}
+
+#days form:last-child {
+    margin: 0;
+}
+
+.fh2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 32vw;
+    margin-top: 4vh;
+}
+
+.fh2 h1 {
+    text-align: center;
+    line-height: 0.8;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 7vh;
+    font-size: 4.9vw;
+    font-weight: 500;
+}
+
+.fh2 p {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+#ls {
+    margin-top: 19.4vh;
+    margin-left: 13%;
+}
+
+#ls p {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 1.4vw;
+    font-weight: 700;
+    letter-spacing: 0.3vw;
+}
+
+#btnls {
+    background-color: transparent;
+    border: #E88B21 0.4vh solid;
+    border-radius: 1ch;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4040F;
+    font-size: 2.4vw;
+    padding: 0;
+    letter-spacing: 0.3vw;
+    padding: 0 0.2vw;
+    margin-bottom: 14vh;
+    cursor: pointer;
+}
+
+#btnls1 {
+    background-color: transparent;
+    border: #E88B21 0.4vh solid;
+    border-radius: 1ch;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4040F;
+    font-size: 2.4vw;
+    padding: 0;
+    letter-spacing: 0.3vw;
+    padding: 0 0.2vw;
+    margin-bottom: 14vh;
+    cursor: pointer;
+}
+
+.Folder2 {
+    background-image: url(img/bg2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Folder2 h1 {
+    font-size: 4vw;
+    font-weight: 700;
+    letter-spacing: 1vw;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6vh;
+}
+
+.arrow a {
+    font-size: 4.5vw;
+    font-weight: 100;
+    margin-right: 82vw;
+    text-decoration: none;
+    margin-bottom: 4vh;
+}
+
+.arrow a:last-child {
+    margin-right: 0;
+}
+
+#lefta {
+    color: black;
+}
+
+.lenta {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vh;
+}
+
+#l1 {
+    background-image: url(img/Rectangle5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 4vw;
+    height: 45vh;
+    width: 20vw;
+}
+
+#l2 {
+    background-image: url(img/Rectangle7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 4vw;
+    height: 45vh;
+    width: 20vw;
+}
+
+#l3 {
+    background-image: url(img/Rectangle8.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 4vw;
+    height: 45vh;
+    width: 20vw;
+}
+
+#l4 {
+    background-image: url(img/Rectangle9.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 20vw;
+}
+
+.Folder3 {
+    background-color: #5B4959;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+}
+
+.Folder3 h1 {
+    font-size: 5vw;
+    letter-spacing: 0.6vw;
+    margin-bottom: 0;
+}
+
+.arrow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 6vh;
+}
+
+.arrow2 a {
+    color: #E88B21;
+    font-size: 3vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.phobv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 108vh;
+    margin-bottom: 10vh;
+}
+
+#leftph {
+    background-image: url(img/photograv1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 40vw;
+    border: white 0.4vh solid;
+}
+
+#upph {
+    background-image: url(img/photograv2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 53.2vh;
+    margin: 0;
+    border: white 0.4vh solid;
+}
+
+#downph {
+    background-image: url(img/photograv3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 53.2vh;
+    margin: 0;
+    border: white 0.4vh solid;
+}
+
+footer {
+    background: rgba(165, 165, 176, 0.37);
+    height: 5.4vh;
+}
